@@ -1,0 +1,14 @@
+import java.util.*;
+public class Solution {
+    public static List<String> printNtimes(int n){
+        // Write your code here.
+        List<String>result=new ArrayList<>();
+        if(n==0)return result;
+       result= printNtimes(n-1);
+       result.add("Coding Ninjas");
+       return result;
+
+
+    
+    }
+}
