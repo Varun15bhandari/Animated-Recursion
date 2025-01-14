@@ -1,0 +1,22 @@
+using formula 
+
+public class Solution {
+    public static long sumFirstN(long n) {
+        // Write your code here.
+        return n*(n+1)/2;
+    }
+}
+
+
+using for loop
+
+public class Solution {
+    public static long sumFirstN(long n) {
+        // Write your code here.
+       long sum=0;
+       for(int i=1;i<=n;i++){
+           sum += i;
+       }
+       return sum;
+    }
+}
